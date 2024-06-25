@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Ignore Python cache directories
 __pycache__/
 
@@ -8,28 +7,3 @@ docker-compose.yml
 
 # Ignore any file or directory named 'secrets'
 secrets/
-
-=======
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-file
-*.flf
-#Test results file
-TestResults.xml
->>>>>>> 7cde4c062c41cef5d815d1a4a12fd6c0058043ec

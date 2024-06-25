@@ -1,0 +1,10 @@
+# Ignore .env file which contains sensitive credentials
+.env
+docker-compose.yml
+
+# Ignore any file or directory named 'secrets'
+secrets/
+
+# Ignore all files with a .pem extension
+*.pem
+

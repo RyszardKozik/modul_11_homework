@@ -9,6 +9,14 @@ import os
 # Load environment variables from .env file
 load_dotenv()
 
+# Get environment variables
+POSTGRES_USERNAME = os.getenv("POSTGRES_USERNAME")
+POSTGRES_PASSWORD = os.getenv("POSTGRES_PASSWORD")
+DATABASE_URL = os.getenv("DATABASE_URL")
+DB_HOST = os.getenv("DB_HOST")
+DB_PORT = os.getenv("DB_PORT")
+DB_NAME = os.getenv("DB_NAME")
+
 # Create the FastAPI app
 app = FastAPI()
 
